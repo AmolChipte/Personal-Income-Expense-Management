@@ -28,7 +28,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Daily Expense Tracker || Add Expense</title>
+	<title>Income & Expense Tracker || Add Expense</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/datepicker3.css" rel="stylesheet">
@@ -64,7 +64,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 				
 				
 				<div class="panel panel-default">
-					<div class="panel-heading">Expense</div>
+					<div class="panel-heading">Add Expense</div>
 					<div class="panel-body">
 						<p style="font-size:16px; color:red" align="center"> <?php if($msg){
     echo $msg;
@@ -77,12 +77,12 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 									<input class="form-control" type="date" value="" name="dateexpense" required="true">
 								</div>
 								<div class="form-group">
-									<label>Item</label>
+									<label>Type of Expense</label>
 									<input type="text" class="form-control" name="item" value="" required="true">
 								</div>
 								
 								<div class="form-group">
-									<label>Cost of Item</label>
+									<label>Expense Cost</label>
 									<input class="form-control" type="text" value="" required="true" name="costitem">
 								</div>
 																

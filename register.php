@@ -52,11 +52,11 @@ return true;
 </script>
 <body>
 	<div class="row">
-			<h2 align="center">Daily Expense Tracker</h2>
+			<h2 align="center">Personal Income & Expense Management System</h2>
 	<hr />
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
-				<div class="panel-heading">Sign Up</div>
+				<div class="panel-heading">Create an Account</div>
 				<div class="panel-body">
 					<form role="form" action="" method="post" id="" name="signup" onsubmit="return checkpass();">
 						<p style="font-size:16px; color:red" align="center"> <?php if($msg){
