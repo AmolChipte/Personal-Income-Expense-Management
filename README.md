@@ -1,7 +1,7 @@
-# Personal-Income-Expense-System
+# Personal-Income-Expense-Management
 ## Software Requirement
 1. Xampp Server
-## How to Run System..
+## How to Execute Project..
 1. Download Zip File
 2. Extract to PC
 3. Move Whole Folder to C:\xampp\htdocs\
